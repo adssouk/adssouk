@@ -8,7 +8,7 @@ body {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 1px;
+  width: 0px;
 }
 
 /* Track */
@@ -458,11 +458,12 @@ text-align: center;
 }
 
 .client_section .box .img-box {
-  width: 60px;
+  width: 70%;
 }
 
 .client_section .box .img-box img {
   width: 100%;
+  object-fit: cover;
 }
 
 .client_section .box .detail-box {
